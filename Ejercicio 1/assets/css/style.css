@@ -78,7 +78,7 @@
 */
 
 /* 0 */
-body {
+* {
     margin: none ;
     padding: none ;
     font-family: 'Roboto', sans-serif;
