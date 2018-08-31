@@ -3,6 +3,7 @@
     0.1 Quitar marges
     0.2 Quitar padding
     0.3 Agregar fuente : 'Roboto', sans-serif;
+
 1. Cambiar color de fondo a la barra de navegación con el valor #2d3436 y margen inferior del 2%.
 
 2. Aplicar a la clase "logo-container"
@@ -75,3 +76,137 @@
 19. Aplicar a todos los span dentro de las etiquetas label color de texto #d35400.
 
 */
+
+/* 0 */
+body {
+    margin: none ;
+    padding: none ;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* 1 */
+nav {
+    background-color: #2d3436 ;
+    margin-bottom: 2% ; 
+}
+
+/* 2 */
+.logo-container {
+    display: inline-block;
+    padding: 10px ;
+}
+
+/* 3 */
+nav ul {
+    display: inline;
+    padding: 20px ;
+    margin-left: 5% ;
+
+}
+
+/* 4 */
+nav ul li {
+    display: inline;
+}
+
+/* 5 */
+nav ul li a {
+    padding: 20px ;
+    color: white ;
+    font-weight: bold ;
+    text-decoration: none ;
+}
+
+/* 6 */
+#main {
+ margin-left: 10% ;
+ margin-right: 10% ;
+
+}
+
+/* 7 */
+article {
+    margin: 12px ;
+    }
+
+/* 8 */
+figure img{
+    width: 100% ; 
+}
+
+/* 9 */
+figcaption {
+    margin-left: 10px ;
+    font-size: 0.9em ;
+}
+
+/* 10 */
+a {
+    color: #0984e3 ;
+    font-weight: bold ;
+    text-decoration: none ;
+}
+
+/* 11 */
+figure {
+    margin-top: 7px ;
+    margin-bottom: 7px ;
+}
+
+/* 12 */
+footer {
+    background-color: #2d3436 ;
+    padding: 20px ;
+    color: white ;
+}
+
+/* 13 */
+label {
+    display: block ;
+    padding-bottom: 3px ;
+    padding-top: 3px ;
+}
+
+/* 14 */
+.section-footer {
+    display: inline-block ;
+    margin-right: 15% ;
+    margin-left: 15% ;
+}
+
+/* 15 */
+fieldset {
+    border: none ;
+}
+
+/* 16 */
+.input-group {
+    padding: 7px ;
+}
+
+/* 17 */
+input[type="email"] {
+    padding: 7px ;
+    border: none ;
+    border-radius: 4px ;
+}
+
+/* 18 */
+input[type="submit"] {
+    padding-bottom: 6px ;
+    padding-top: 6px ;
+    border: none ;
+    background-color: #d35400 ;
+    color: white ;
+    font-weight: bold ;
+    border-radius: 4px ;
+    font-size: 1rem ;
+    padding-left: 10px ;
+    padding-right: 10px ;
+}
+
+/* 19 */
+span {
+    color: #d35400 ;
+}
+
