@@ -1,7 +1,19 @@
-td {
-    width: 100px ;
-    height: 100px ;
+.head {
+    padding: 2%;
+    padding-left: 38%;
+    display: block;
+}
+
+
+.game td {
+    width: 90px ;
+    height: 90px ;
    
+}
+
+.game td:hover {
+    background-color:rgba(255, 0, 0, 0.5);
+    visibility: visible
 }
 
 table{
@@ -9,23 +21,21 @@ table{
     margin-right: auto;
 }
 
-td {
-    width: 120px;
-    height: 120px;
+.white {
+   color: white ;
+    text-align: center ;
 }
 
-.border-left {
-    border-left: 1px solid black;
+.black {
+    background-color: black ;
+    text-align: center ;
 }
 
-.border-bottom{
-    border-bottom: 1px solid black;
+footer {
+    padding: 2% ;
 }
-
-.border-top {
-    border-top: 1px solid black;
-}
-
-.border-right {
-    border-right: 1px solid black;
+footer table td{
+    padding: 2% ;
+    text-align: center;
+    margin: 5px ;
 }
