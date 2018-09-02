@@ -1,0 +1,189 @@
+.botones button{
+    cursor: pointer;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* tamaños */
+
+.tamaños button {
+    color: gray;
+    background-color: #f4f3f2;
+    border: 1px solid #f4f3f2;
+}
+
+.normal {
+    padding: 11px;
+    margin: 9px 5px;
+    margin-left: 1rem;
+    font-size: 105%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.pequeño {
+    padding: 9px;
+    margin: 9px 16px;
+    margin-left: 1rem;
+    font-size: 59%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.grande {
+    padding: 19px;
+    margin: 9px 0px;
+    margin-left: 0rem;
+    font-size: 158%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* Colores */
+
+.colores button {
+    padding: 13px ;
+    margin: 9px 5px;
+    margin-left: 1rem;
+    font-size: 105%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.esmeralda{
+    background-color: #57d68d;
+    border: 2px solid #57d68d; 
+    color: white;
+}
+
+.cielo{
+    background-color:#5cace2;
+    border: 2px solid #5cace2; 
+    color: white;
+}
+
+.amatista{
+    background-color: #ae7ac4;
+    border: 2px solid #ae7ac4; 
+    color: white;
+}
+
+.asfalto{
+    background-color: #5c6d7e;
+    border: 2px solid #5c6d7e; 
+    color: white;
+}
+
+.topazio{
+    background-color: #ea974e;
+    border: 2px solid #ea974e; 
+    color: white;
+}
+
+.rubi{
+    background-color: #eb6f62;
+    border: 2px solid #eb6f62; 
+    color: white;
+}
+
+/* Bordeado */
+.bordeados button {
+    padding: 1em ;
+    margin-left: 1rem ;
+    font-size: 105%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+.simpleb{
+    border: 2px solid rgb(151, 163, 151); 
+    color: rgb(151, 163, 151);
+    background-color: white;
+}
+
+.esmeraldab{
+    border: 2px solid #57d68d; 
+    color: #57d68d;
+    background-color: white;
+}
+
+.cielob{
+    border: 2px solid #5cace2; 
+    color: #5cace2;
+    background-color: white;
+}
+
+.amatistab{
+    border: 2px solid #ae7ac4; 
+    color: #ae7ac4;
+    background-color: white;
+}
+
+.asfaltob{
+    border: 2px solid #5c6d7e; 
+    color: #5c6d7e;
+    background-color: white;
+}
+
+.topaziob{
+    border: 2px solid #ea974e; 
+    color: #ea974e;
+    background-color: white;
+}
+
+.rubib{
+    border: 2px solid #eb6f62; 
+    color: #eb6f62;
+    background-color: white;
+}
+
+/* Combinaciones */
+.combinaciones button {
+    margin-left: 1rem ;
+    padding: 1em ;
+}
+
+.lasf{
+    background-color: #5c6d7e;
+    border: 2px solid #5c6d7e; 
+    font-size: 1em;
+    color: white;
+}
+
+.borde{
+    border: 2px solid #5cace2; 
+    color: #5cace2;
+    background-color: white;
+    font-size: 0.7em;
+}
+
+.peqesm{
+    background-color: #57d68d;
+    border: 2px solid #57d68d; 
+    font-size: 59%;
+    color: white;
+    font-size: 0.4em;
+}
+
+.brubi{
+    border: 2px solid #eb6f62; 
+    color: #eb6f62;
+    background-color: white;
+    font-size: 1em;
+}
+
+/* Home button */
+#Home {
+    position: fixed;
+    bottom: 5.4em;
+    right: 85em;
+    padding: 15px;
+    background-color: green ;
+    border-radius: 10px;
+    border: 2px solid #57d68d ;
+    text-decoration: none;
+    color: white ;
+}
+
+
